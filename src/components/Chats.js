@@ -56,7 +56,13 @@ const Chats = () => {
             });
         }
     }, [user, history]);
-    if (!user || loading) return 'Loading...';
+    if (!user || loading) {
+        return (
+            <div style={{width: '100%', textAlign: 'center', height: '100%'}}>
+                <h4>Loading</h4>
+            </div>
+        );
+    }
     return (
         <div className='chats-page'>
             <div className='nav-bar'>
