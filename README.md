@@ -1,7 +1,7 @@
 Chat Ping
 =========  
 
-[Live Website]()
+[Live Website](https://chat-ping.netlify.app/)
 
 Realtime Chat application created using ReactJS with Social Auth and dedicated chat APIs/sockets.  
 This application uses [Google Firebase](https://firebase.google.com/) for authentication and [Chat Engine](https://chatengine.io/) for the backend. 
